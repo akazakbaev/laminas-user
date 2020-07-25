@@ -1,0 +1,21 @@
+{
+    "name": "akazakbaev/laminas-user",
+    "description": "",
+    "keywords": [
+        "PHP"
+    ],
+    "type": "library",
+    "require": {
+        "php": ">=7.3.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Akazakbaev\\LaminasUser\\": "src/"
+        }
+    },
+    "extra": {
+        "zf": {
+            "module": "Akazakbaev\\LaminasUser"
+        }
+    }
+}
